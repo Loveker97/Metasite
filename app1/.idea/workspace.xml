@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a86c65fe-399a-4189-84de-45d95e00e1a3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1ycGclJA5UX1OF7u38pYNBXi8xf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="app1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="app1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.app" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a86c65fe-399a-4189-84de-45d95e00e1a3" name="Default Changelist" comment="" />
+      <created>1632543545180</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632543545180</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="101" y="85" width="1071" height="702" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1632543663449">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="101" y="85" width="1071" height="702" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.805@0.25.1440.805" timestamp="1632543663449" />
+    <state width="1379" height="191" key="GridCell.Tab.0.bottom" timestamp="1632543826249">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state width="1379" height="191" key="GridCell.Tab.0.bottom/0.25.1440.805@0.25.1440.805" timestamp="1632543826249" />
+    <state width="1379" height="191" key="GridCell.Tab.0.center" timestamp="1632543826248">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state width="1379" height="191" key="GridCell.Tab.0.center/0.25.1440.805@0.25.1440.805" timestamp="1632543826248" />
+    <state width="1379" height="191" key="GridCell.Tab.0.left" timestamp="1632543826248">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state width="1379" height="191" key="GridCell.Tab.0.left/0.25.1440.805@0.25.1440.805" timestamp="1632543826248" />
+    <state width="1379" height="191" key="GridCell.Tab.0.right" timestamp="1632543826249">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state width="1379" height="191" key="GridCell.Tab.0.right/0.25.1440.805@0.25.1440.805" timestamp="1632543826249" />
+    <state x="397" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1632543559631">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="397" y="256" key="com.intellij.ide.util.TipDialog/0.25.1440.805@0.25.1440.805" timestamp="1632543559631" />
+  </component>
+</project>
