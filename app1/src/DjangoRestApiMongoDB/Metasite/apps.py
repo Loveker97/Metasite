@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class TutorialsConfig(AppConfig):
+class MetasiteConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'tutorials'
+    name = 'Metasite'
