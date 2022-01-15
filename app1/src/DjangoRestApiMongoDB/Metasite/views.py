@@ -6,6 +6,10 @@ from rest_framework import status
  
 from Metasite.models import Tutorial
 from Metasite.serializers import TutorialSerializer
+from Metasite.models import Posts
+from Metasite.serializers import PostsSerializer
+
+
 from rest_framework.decorators import api_view
 
 # TODO: beatify code format
@@ -16,7 +20,8 @@ def tutorial_list(request):
     # GET list of tutorials, POST a new tutorial, DELETE all tutorials
     if request.method == 'GET':
         tutorials = Tutorial.objects.all()
-        
+        print(tutorials)
+        print(len(tutorials))
         title = request.GET.get('title', None)
         if title is not None:
             tutorials = tutorials.filter(title__icontains=title)
@@ -55,3 +60,4 @@ def tutorial_detail(request, pk):
 def tutorial_list_published(request):
     # GET all published tutorials
     pass
+
