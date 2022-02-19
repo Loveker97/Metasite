@@ -4,8 +4,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
-
-
+import { NavbarModule, WavesModule, ButtonsModule, IconsModule} from 'angular-bootstrap-md';
 
 @NgModule({
   declarations: [
@@ -15,7 +14,11 @@ import { MatButtonModule } from '@angular/material/button';
   imports: [
     CommonModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    NavbarModule,
+    WavesModule,
+    ButtonsModule,
+    IconsModule
   ],
   exports: [
     NavigationComponent
