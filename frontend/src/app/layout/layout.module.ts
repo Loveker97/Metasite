@@ -4,7 +4,8 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
-import { NavbarModule, WavesModule, ButtonsModule, IconsModule} from 'angular-bootstrap-md';
+import { NavbarModule, WavesModule, ButtonsModule, IconsModule, DropdownModule} from 'angular-bootstrap-md';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import { NavbarModule, WavesModule, ButtonsModule, IconsModule} from 'angular-bo
     NavbarModule,
     WavesModule,
     ButtonsModule,
-    IconsModule
+    IconsModule,
+    DropdownModule.forRoot(),
+    SharedModule
   ],
   exports: [
     NavigationComponent
