@@ -7,6 +7,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import {AccordionModule} from 'primeng/accordion';     //accordion and accordion tab
 import {MenuItem} from 'primeng/api';                  //api
 
+import { NavbarModule, WavesModule, ButtonsModule, IconsModule, DropdownModule} from 'angular-bootstrap-md';
+
 @NgModule({
   declarations: [
     SidebarComponent
@@ -16,7 +18,8 @@ import {MenuItem} from 'primeng/api';                  //api
     SidebarModule,
     BrowserAnimationsModule,
     BrowserModule,
-    AccordionModule
+    AccordionModule,
+    IconsModule
   ],
   exports: [
     SidebarComponent

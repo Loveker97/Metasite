@@ -1,10 +1,25 @@
 <!--Navbar-->
 <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark unique-color" [containerInside]="false">
 
-    <i class="pi-bars"></i>
-    <app-sidebar></app-sidebar>
+  <mdb-navbar-brand>
+    <button 
+      type="button" 
+      class="btn btn-light"
+      (click)="display_sidebar = !display_sidebar">
+      <mdb-icon 
+        fas 
+        icon="bars fa-lg">
+      </mdb-icon>
+    </button>
+  </mdb-navbar-brand>
+  
+    <app-sidebar
+      [display]="display_sidebar" 
+      (displayChange)="onDisplayChange($event)">
+    </app-sidebar>
+    
     <!-- Navbar brand -->
-    <mdb-navbar-brand><a class="navbar-brand" href="#">Metasite</a></mdb-navbar-brand>
+    <a class="navbar-brand" href="#">Metasite</a>
   
     <!-- Collapsible content -->
     <links>
@@ -73,7 +88,6 @@
         </li>
       </ul>
     </links>
-    <!-- Collapsible content -->
   
   </mdb-navbar>
   <!--/.Navbar-->

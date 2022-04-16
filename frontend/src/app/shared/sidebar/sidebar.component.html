@@ -1,3 +1,5 @@
-<p-sidebar [(visible)]="display" position="left" styleClass="p-sidebar-sm">
+
+
+<p-sidebar [visible]="display" (visibleChange)="onVisibleChange($event)" position="left" styleClass="p-sidebar-sm">
     Content
 </p-sidebar>
