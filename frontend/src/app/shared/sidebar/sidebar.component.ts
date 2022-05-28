@@ -26,5 +26,5 @@ export class SidebarComponent implements OnInit, OnChanges {
     this.displayChange.emit(visibleValue);
   }
 
-
+  panelOpenState = false;
 }

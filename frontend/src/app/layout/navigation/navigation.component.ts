@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class NavigationComponent implements OnInit {
 
   display_sidebar: boolean = false;
+  is_active: boolean = true;
   constructor() { }
 
   ngOnInit(): void {
