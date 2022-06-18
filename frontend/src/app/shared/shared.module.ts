@@ -7,6 +7,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import {AccordionModule} from 'primeng/accordion';     //accordion and accordion tab
 import {MenuItem} from 'primeng/api';                  //api
 import {MatExpansionModule} from '@angular/material/expansion';
+import {MatButtonModule} from '@angular/material/button';
+import {MatListModule} from '@angular/material/list';
 
 import { NavbarModule, WavesModule, ButtonsModule, IconsModule, DropdownModule} from 'angular-bootstrap-md';
 
@@ -21,7 +23,9 @@ import { NavbarModule, WavesModule, ButtonsModule, IconsModule, DropdownModule} 
     BrowserModule,
     AccordionModule,
     IconsModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatButtonModule,
+    MatListModule
   ],
   exports: [
     SidebarComponent
